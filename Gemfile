@@ -5,6 +5,7 @@ gem 'rails', '4.2.0'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
+gem 'enumerize'
 
 # Assets
 gem 'sass-rails', '~> 5.0'

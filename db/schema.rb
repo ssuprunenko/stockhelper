@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20150315092838) do
 
   create_table "releases", force: :cascade do |t|
     t.string   "name"
-    t.string   "type"
+    t.string   "release_type"
     t.string   "title"
     t.text     "description"
     t.date     "shoot_date"

@@ -2,7 +2,7 @@ class CreateReleases < ActiveRecord::Migration
   def change
     create_table :releases do |t|
       t.string :name
-      t.string :type
+      t.string :release_type
       t.string :title
       t.text :description
       t.date :shoot_date
